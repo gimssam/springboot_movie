@@ -1,3 +1,4 @@
+# spring_edu
 수업용 폴더
 
 Corretto
@@ -105,3 +106,5 @@ Tomcat과 같은 웹 서버를 앱에 포함하여 외부 웹 서버에 의존�
 	- [JetBrain IntelliJ IDEA Ultimate 버전(30일 무료 평가판)](https://www.jetbrains.com/ko-kr/idea/download/?section=windows)
 - Database(DBMS)
 	- MySQL 8.x.x
+
+

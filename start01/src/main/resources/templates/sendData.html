@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Send Form</title>
+</head>
+<body>
+<h1>Client -> Server</h1>
+<h2>a 태그 활용</h2>
+<p>전송 한 데이터 : 10, 20</p>
+<a>전송</a>
+<hr>
+<h2>form 데이터 전송</h2>
+<form>
+    <input type="text" name="name"><br>
+    <input type="number" name="age"><br>
+    <input type="text" name="address"><br>
+    <input type="submit" value="전송">
+</form>
+<hr>
+<h2>form 데이터 전송 - Dto 사용</h2>
+<form method="post">
+    <input type="text" name="name"><br>
+    <input type="number" name="age"><br>
+    <input type="text" name="address"><br>
+    <input type="submit" value="전송">
+</form>
+</body>
+</html>
